@@ -1,0 +1,10 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
+PROJECT(wsws)
+
+add_subdirectory(./src)
+add_subdirectory(./displace)
+add_subdirectory(./contours_tree)
+add_subdirectory(./hsv_Color_pre)
+add_subdirectory(./find_centre)
+add_subdirectory(./kalmanFliter)
+add_subdirectory(./solvepnp)
